@@ -131,14 +131,15 @@
 
   /* Define um estilo para elementos com a classe 'linhaEditavel' */
   .linhaEditavelNegrito {
-    margin: 0.2; /* Define uma margem de 0.5 (equivalente a 0.5px) para elementos com a classe 'linhaEditavel' */
-    line-height: 0.5; /* Define a altura da linha como 1.5 vezes a altura da fonte */
+    margin: 0; /* Define uma margem de 0.5 (equivalente a 0.5px) para elementos com a classe 'linhaEditavel' */
+    line-height: 0; /* Define a altura da linha como 1.5 vezes a altura da fonte */
+    margin-bottom: 0em;
     /*border-bottom: 0.1rem solid;  Adiciona uma borda inferior sólida */
     margin-left: 0.3rem; /* Adiciona uma margem à esquerda de 0.5rem (8px) */
     user-select: all; /* Permite a seleção de todo o conteúdo do elemento */
     outline: none; /* Remove o contorno ao redor do elemento quando ele está em foco */
     display: inline-block; /* Define os elementos como blocos em linha */
-    min-width: 20rem; /* Define a largura mínima como 20rem (320px) */
+    min-width: 3rem; /* Define a largura mínima como 20rem (320px) */
     max-width: max-content; /* Define a largura máxima como o conteúdo máximo */
     font-weight: bold;  /*Define o peso da fonte como negrito */
   }
@@ -153,6 +154,7 @@
     line-height: 1.5; /* Define a altura da linha como 1.5 vezes a altura da fonte */
     /* border-bottom: 0.1rem solid;  Adiciona uma borda inferior sólida */
     margin: 0.5; /* Define uma margem de 0.5 (equivalente a 0.5px) para elementos com a classe 'data' */
+    padding: 0;
     user-select: all; /* Permite a seleção de todo o conteúdo do elemento */
     outline: none; /* Remove o contorno ao redor do elemento quando ele está em foco */
     display: inline-block; /* Define os elementos como blocos em linha */
@@ -190,8 +192,8 @@
   <p><span class="linhaEditavelNegrito" contenteditable="true"> [Nome] </span></p>
   <p> <span class="linhaEditavelNegrito" contenteditable="true">  [Título ou cargo ou outra questão]</span>
   </p>
-
-
+<br>
+ 
 
 <br>
         <p>
@@ -221,20 +223,18 @@
           style="
             text-align: center;
             border: none;
-            margin-top: 1rem;
-            font-weight: bold;
           "
         >
 
 
           <p>
-            <span class="linhaEditavel" contenteditable="true">
+            <span class="linhaEditavelNegrito" contenteditable="true">
               [Nome do Signatário]</span
             >
           </p>
 
           <p>
-            <span class="linhaEditavel" contenteditable="true">
+            <span class="linhaEditavelNegrito" contenteditable="true">
               [Cargo do Signatário]</span
             >
           </p>
