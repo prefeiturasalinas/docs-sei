@@ -11,6 +11,9 @@ Lembrando que os mesmos devem ser listados primeiramente em:
 Como adicionar um documento a partir do modelo?
 `SEI - ADMINISTRAÇÃO - TIPOS DE DOCUMENTO - LISTAR - NOVO TIPO DE DOCUMENTO -  `
 
+Assinatura das Unidades:
+`SEI - ADMINISTRAÇÃO - TIPOS DE DOCUMENTO - ASSINATURA DAS UNIDADES-  `
+
 ### Observação:
 
 Alteração feita somente pelo SETOR DE TI pois exige acesso restrito ao sistema
