@@ -14,6 +14,11 @@ Como adicionar um documento a partir do modelo?
 Assinatura das Unidades:
 `SEI - ADMINISTRAÇÃO - TIPOS DE DOCUMENTO - ASSINATURA DAS UNIDADES-  `
 
+Criar unidades no SIP
+`SIP - UNIDADES - NOVA   `
+Montar Hieraquia no SIP
+`SIP - HIERARQUIA - MONTAR - ADICIONAR NOVA UNIDADE   `
+
 ### Observação:
 
 Alteração feita somente pelo SETOR DE TI pois exige acesso restrito ao sistema
