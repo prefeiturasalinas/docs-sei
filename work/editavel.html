@@ -1,3 +1,4 @@
+<!--  EDITAVEL PADRAO 2024-->
 <style>
   /* Define um estilo para o documento HTML e o corpo da página, resetando todas as propriedades padrões */
   html,
@@ -168,10 +169,11 @@
 
   /* Define um estilo para elementos com a classe 'linhaEditavel' */
   .linhaEditavelNegrito {
-    margin: 0.2;
+    margin: 0;
     /* Define uma margem de 0.5 (equivalente a 0.5px) para elementos com a classe 'linhaEditavel' */
-    line-height: 0.5;
+    line-height: 0;
     /* Define a altura da linha como 1.5 vezes a altura da fonte */
+    margin-bottom: 0em;
     /*border-bottom: 0.1rem solid;  Adiciona uma borda inferior sólida */
     margin-left: 0.3rem;
     /* Adiciona uma margem à esquerda de 0.5rem (8px) */
@@ -181,7 +183,7 @@
     /* Remove o contorno ao redor do elemento quando ele está em foco */
     display: inline-block;
     /* Define os elementos como blocos em linha */
-    min-width: 20rem;
+    min-width: 3rem;
     /* Define a largura mínima como 20rem (320px) */
     max-width: max-content;
     /* Define a largura máxima como o conteúdo máximo */
@@ -202,6 +204,7 @@
     /* border-bottom: 0.1rem solid;  Adiciona uma borda inferior sólida */
     margin: 0.5;
     /* Define uma margem de 0.5 (equivalente a 0.5px) para elementos com a classe 'data' */
+    padding: 0;
     user-select: all;
     /* Permite a seleção de todo o conteúdo do elemento */
     outline: none;
@@ -214,8 +217,8 @@
     /* Define a largura máxima como o conteúdo máximo */
   }
 
-
   /* Define um estilo para elementos com a classe 'data' */
+
   .dataItalico {
     font-weight: italic;
     /* Define o peso da fonte como negrito */
@@ -253,8 +256,8 @@
       <td>
         <p>
           <strong>
-            Ofício Circular:
-            <span class="data" contenteditable="true"> [N. DO OFÍCIO CIRCULAR] / [ANO]</span>
+            Memorando:
+            <span class="data" contenteditable="true"> [N. DO MEMORANDO] / [ANO]</span>
           </strong>
         </p>
 
@@ -263,7 +266,7 @@
         <p><span class="data" contenteditable="true"> [Nome] </span></p>
         <p> <span class="data" contenteditable="true"> [Título ou cargo ou outra questão]</span>
         </p>
-
+        <br>
 
 
         <br>
@@ -275,7 +278,7 @@
         </p>
 
         <p>
-          <span class="dataItalico" contenteditable="true">
+          <span class="linhaEditavel" contenteditable="true">
             [conteúdo a ser digitado ] <br />
           </span>
         </p>
@@ -291,18 +294,16 @@
         <div style="
             text-align: center;
             border: none;
-            margin-top: 1rem;
-            font-weight: bold;
           ">
 
 
           <p>
-            <span class="linhaEditavel" contenteditable="true">
+            <span class="data" contenteditable="true">
               [Nome do Signatário]</span>
           </p>
 
           <p>
-            <span class="linhaEditavel" contenteditable="true">
+            <span class="data" contenteditable="true">
               [Cargo do Signatário]</span>
           </p>
         </div>
