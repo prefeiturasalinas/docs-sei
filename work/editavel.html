@@ -1,4 +1,3 @@
-<!--  EDITAVEL PADRAO 2024-->
 <style>
   /* Define um estilo para o documento HTML e o corpo da página, resetando todas as propriedades padrões */
   html,
@@ -169,11 +168,10 @@
 
   /* Define um estilo para elementos com a classe 'linhaEditavel' */
   .linhaEditavelNegrito {
-    margin: 0;
+    margin: 0.2;
     /* Define uma margem de 0.5 (equivalente a 0.5px) para elementos com a classe 'linhaEditavel' */
-    line-height: 0;
+    line-height: 0.5;
     /* Define a altura da linha como 1.5 vezes a altura da fonte */
-    margin-bottom: 0em;
     /*border-bottom: 0.1rem solid;  Adiciona uma borda inferior sólida */
     margin-left: 0.3rem;
     /* Adiciona uma margem à esquerda de 0.5rem (8px) */
@@ -183,7 +181,7 @@
     /* Remove o contorno ao redor do elemento quando ele está em foco */
     display: inline-block;
     /* Define os elementos como blocos em linha */
-    min-width: 3rem;
+    min-width: 20rem;
     /* Define a largura mínima como 20rem (320px) */
     max-width: max-content;
     /* Define a largura máxima como o conteúdo máximo */
@@ -204,7 +202,28 @@
     /* border-bottom: 0.1rem solid;  Adiciona uma borda inferior sólida */
     margin: 0.5;
     /* Define uma margem de 0.5 (equivalente a 0.5px) para elementos com a classe 'data' */
-    padding: 0;
+    user-select: all;
+    /* Permite a seleção de todo o conteúdo do elemento */
+    outline: none;
+    /* Remove o contorno ao redor do elemento quando ele está em foco */
+    display: inline-block;
+    /* Define os elementos como blocos em linha */
+    min-width: 3rem;
+    /* Define a largura mínima como 3rem (48px) */
+    max-width: max-content;
+    /* Define a largura máxima como o conteúdo máximo */
+  }
+
+
+  /* Define um estilo para elementos com a classe 'data' */
+  .dataItalico {
+    font-weight: italic;
+    /* Define o peso da fonte como negrito */
+    line-height: 1.5;
+    /* Define a altura da linha como 1.5 vezes a altura da fonte */
+    /* border-bottom: 0.1rem solid;  Adiciona uma borda inferior sólida */
+    margin: 0.5;
+    /* Define uma margem de 0.5 (equivalente a 0.5px) para elementos com a classe 'data' */
     user-select: all;
     /* Permite a seleção de todo o conteúdo do elemento */
     outline: none;
@@ -234,89 +253,32 @@
       <td>
         <p>
           <strong>
-            <center>TERMO DE RESPONSABILIDADE DE USUÁRIO COLABORADOR DO SEI - PREFEITURA MUNICIPAL DE SALINAS/MG
-            </center>
+            Ofício:
+            <span class="data" contenteditable="true"> [N. DO OFÍCIO] / [ANO]</span>
           </strong>
         </p>
-        <p> Pelo presente termo, eu, <span class="data" contenteditable="true">
-            [nome]</span> , identifico-me junto à Prefeitura Municipal de Salinas, para utilização do
-          código (login) e senha, para inserção de dados nos processos e disponibilizados no endereço eletrônico do
-          Sistema Eletrônico de Informação (SEI-SALINAS): <a
-            href="https://www.salinas.mg.gov.br/sei">https://www.salinas.mg.gov.br/sei</a>.</p>
+
+        <br>
+        <p><span class="data" contenteditable="true"> [A Sua Senhoria o (a) Senhor (a)] </span></p>
+        <p><span class="data" contenteditable="true"> [Nome] </span></p>
+        <p> <span class="data" contenteditable="true"> [Título ou cargo ou outra questão]</span>
+        </p>
+
+
+
+        <br>
+        <p>
+          <strong>Assunto:</strong>
+
+          <span class="linhaEditavel" contenteditable="true">
+            [assunto a ser tratado]</span>
+        </p>
 
         <p>
-          Declaro ter conhecimento das responsabilidades advindas do recebimento do login de acesso e senha ao
-          SEI-SALINAS, para o exercício de minha função, a saber:
-
+          <span class="dataItalico" contenteditable="true">
+            [conteúdo a ser digitado ] <br />
+          </span>
         </p>
-        <p>a) a realização do cadastro como Usuário Colaborador no SEI da Prefeitura Municipal de Salinas importará na
-          aceitação de todos os termos e condições que regem o processo eletrônico, conforme o DECRETO No 10.392, DE 23
-          DE FEVEREIRO DE 2023, o Regulamento do SEI-SALINAS e demais normas aplicáveis, admitindo, como válida, a
-          assinatura eletrônica na modalidade cadastrada (login/senha), tendo como consequência a responsabilidade pelo
-          uso indevido das ações efetuadas;</p>
-        <p>b) o SEI-Salinas é monitorado por meio de login, que permite identificar e rastrear o uso e o mau uso do
-          mesmo, em caráter de segurança e sigilo do sistema;
-        </p>
-        <p>c) a senha é personalíssima e intransferível, o que acarreta minha responsabilidade pessoal por todo e
-          qualquer prejuízo decorrente de sua cessão proposital a terceiros, ainda que em caráter emergencial, ou por
-          necessidade de serviço, incluindo-se, no conceito de terceiros, outros servidores, superiores hierárquicos ou
-          subordinados;
-        </p>
-        <p>d) constitui mau uso da referida senha, sua utilização para fins estranhos à minha competência funcional ou
-          para fins de acesso a dados e informações estranhas à finalidade pública da referida ferramenta; a utilização,
-          pelo mesmo modo, da senha designada para outrem, ainda que de boa fé e para fins lícitos; a utilização da
-          senha de outrem com a finalidade de interferir na gestão do sistema, auferindo ou produzindo vantagens
-          pessoais, causando ou imputando prejuízo de qualquer espécie a outrem.
-        </p>
-        <p>Poderei responder, civil, criminal e administrativamente, pelo empréstimo e uso indevido da senha, conforme
-          previsto na legislação em vigor.
-        </p>
-
-
-        <!-- TABELA 2 -->
-        <table class="table" contenteditable="false">
-          <tbody contenteditable="false">
-            <tr>
-              <td>RG: <span class="data" contenteditable="true">
-                  [digite seu RG]</span> </td>
-              <td> EMISSOR: <span class="data" contenteditable="true">
-                  [digite o Emissor]</span> </td>
-            </tr>
-            <tr>
-              <td>CPF: <span class="data" contenteditable="true">
-                  [digite seu CPF]</span> </td>
-              <td> E-MAIL: <span class="data" contenteditable="true">
-                  [digite seu E-mail]</span> </td>
-            </tr>
-            <tr>
-              <td>LOCAL: <span class="data" contenteditable="true">
-                  [digite o Local]</span></td>
-              <td> DATA: <span class="data" contenteditable="true">
-                  / / </span> </td>
-            </tr>
-          </tbody>
-        </table>
-
-        <br> <br>
-
-        <!-- TABELA 2 -->
-        <table class="table" contenteditable="false">
-          <tbody contenteditable="false">
-            <tr>
-              <td>NOME DO SETOR: <span class="data" contenteditable="true">
-                  [digite seu Setor]</span> </td>
-              <td> TELEFONE DA UNIDADE: <span class="data" contenteditable="true">
-                  [digite o Telefone da Unidade]</span> </td>
-            </tr>
-            <tr>
-              <td>NOME DA CHEFIA IMEDIATA, SUPERVISOR OU FISCAL: <p> <span class="data" contenteditable="true">
-                    [digite o nome da chefia imediata]</span></p>
-              </td>
-              <td> CARGO : <span class="data" contenteditable="true">
-                  [digite o cargo da chefia imediata]</span> </td>
-            </tr>
-          </tbody>
-        </table>
 
         <div style="
       text-align: center;  border: none; margin-top: 5rem;">
@@ -325,6 +287,24 @@
 
         </div>
 
+
+        <div style="
+            text-align: center;
+            border: none;
+            margin-top: 1rem;
+            font-weight: bold;
+          ">
+
+
+          <p>
+            <span class="linhaEditavel" contenteditable="true">
+              [Nome do Signatário]</span>
+          </p>
+
+          <p>
+            <span class="linhaEditavel" contenteditable="true">
+              [Cargo do Signatário]</span>
+          </p>
         </div>
       </td>
     </tr>
