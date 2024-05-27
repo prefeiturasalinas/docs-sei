@@ -19,6 +19,10 @@ Criar unidades no SIP
 Montar Hieraquia no SIP
 `SIP - HIERARQUIA - MONTAR - ADICIONAR NOVA UNIDADE   `
 
+Modificar tarjas de Assinatura
+`SEI - ADMINISTRAÇÃO - EDITOR - TARJAS   `
+
+
 ### Observação:
 
 Alteração feita somente pelo SETOR DE TI pois exige acesso restrito ao sistema
