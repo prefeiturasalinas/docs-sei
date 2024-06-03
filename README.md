@@ -1,4 +1,21 @@
-## docs-sei
+<h1 align="center">
+  <a href="https://github.com/prefeiturasalinas/">
+    <img src="https://github.com/prefeiturasalinas/.github/blob/main/profile/brasaosalinas.png" alt="Logo" >
+  </a>
+</h1>
+<h1 align="center">  PREFEITURA MUNICIPAL DE SALINAS <BR>
+  SETOR DE TECNOLOGIA DA INFORMAÇÃO <BR> SEI </h1>
+
+<div align="center">
+    <a href="https://github.com/prefeiturasalinas/.github/issues/new?assignees=&labels=bug&template=01_BUG_REPORT.md&title=bug%3A+">Report a Bug</a>
+  ·
+  <a href="https://github.com/prefeiturasalinas/.github/issues/new?assignees=&labels=enhancement&template=02_FEATURE_REQUEST.md&title=feat%3A+">Request a Feature</a>
+  .
+  <a href="https://github.com/prefeiturasalinas/.github/discussions">Ask a Question</a>
+</div>
+
+<div align="center">
+<br />
 
 ## Documentos SEI
 
