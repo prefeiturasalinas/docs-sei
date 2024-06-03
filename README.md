@@ -14,7 +14,7 @@
   <a href="https://github.com/prefeiturasalinas/.github/discussions">Ask a Question</a>
 </div>
 
-<div align="center">
+
 <br />
 
 ## Documentos SEI
