@@ -60,3 +60,4 @@ Obrigado a todos os colaboradores que tornaram este projeto possível.
 
 - **Nunes**: [GitHub](https://github.com/nunesinc) | [E-mail](nunes@nunesinc.net) 
 - **Igor**:  [E-mail](igor.ti@salinas.mg.gov.br)
+
