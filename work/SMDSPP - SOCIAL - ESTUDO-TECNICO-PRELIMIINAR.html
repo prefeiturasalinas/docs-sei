@@ -1,3 +1,4 @@
+<!--  EDITAVEL PADRAO 2024-->
 <style>
     /* Define um estilo para o documento HTML e o corpo da página, resetando todas as propriedades padrões */
     html,
@@ -168,10 +169,11 @@
 
     /* Define um estilo para elementos com a classe 'linhaEditavel' */
     .linhaEditavelNegrito {
-        margin: 0.2;
+        margin: 0;
         /* Define uma margem de 0.5 (equivalente a 0.5px) para elementos com a classe 'linhaEditavel' */
-        line-height: 0.5;
+        line-height: 0;
         /* Define a altura da linha como 1.5 vezes a altura da fonte */
+        margin-bottom: 0em;
         /*border-bottom: 0.1rem solid;  Adiciona uma borda inferior sólida */
         margin-left: 0.3rem;
         /* Adiciona uma margem à esquerda de 0.5rem (8px) */
@@ -181,7 +183,7 @@
         /* Remove o contorno ao redor do elemento quando ele está em foco */
         display: inline-block;
         /* Define os elementos como blocos em linha */
-        min-width: 20rem;
+        min-width: 3rem;
         /* Define a largura mínima como 20rem (320px) */
         max-width: max-content;
         /* Define a largura máxima como o conteúdo máximo */
@@ -202,6 +204,7 @@
         /* border-bottom: 0.1rem solid;  Adiciona uma borda inferior sólida */
         margin: 0.5;
         /* Define uma margem de 0.5 (equivalente a 0.5px) para elementos com a classe 'data' */
+        padding: 0;
         user-select: all;
         /* Permite a seleção de todo o conteúdo do elemento */
         outline: none;
@@ -213,7 +216,6 @@
         max-width: max-content;
         /* Define a largura máxima como o conteúdo máximo */
     }
-
 
     /* Define um estilo para elementos com a classe 'data' */
     .dataItalico {
@@ -251,88 +253,53 @@
     <tbody contenteditable="false">
         <tr>
             <td>
+                <!--       <p>
+          <strong>
+            Memorando:
+            <span class="data" contenteditable="true"> [N. DO MEMORANDO] / [ANO]</span>
+          </strong>
+        </p>
+-->
 
-                <CENTER>
-                    <p>
-                        <span class="data" contenteditable="true">
-                            [conteúdo a ser digitado] <br />
-                        </span>
+                <div style="
+        text-align: center;  border: none; margin-top: 1rem;">
 
-                    </p>
-                </CENTER>
+                    <span class="data" contenteditable="true"> [ Digite o título ou assunto ] </span>
 
-                <p>
-                    <span class="data" contenteditable="false">
-                        1. Objeto:
-                    </span>
-                </p>
+                </div>
 
-                <p>
-                    <span class="dataItalico" contenteditable="true">
-                        [conteúdo a ser digitado] <br />
-                    </span>
-                </p>
-                <p>
-                    <span class="data" contenteditable="false">
-                        2. Descrição da necessidade da contratação
-                    </span>
+                <p><span class="data" contenteditable="no"> 1. Objeto </span></p>
+                <p> <span class="dataItalico" contenteditable="true"> [ Digite o conteúdo ]</span>
                 </p>
 
-                <p>
-                    <span class="dataItalico" contenteditable="true">
-                        [conteúdo a ser digitado] <br />
-                    </span>
-                </p>
-                <p>
-                    <span class="data" contenteditable="false">
-                        3. Descrição dos requisitos necessários e suficientes à escolha da solução
-                    </span>
+                <p><span class="data" contenteditable="no"> 2. Descrição da necessidade da contratação </span></p>
+
+                <p> <span class="dataItalico" contenteditable="true"> [ Digite o conteúdo ]</span>
                 </p>
 
-                <p>
-                    <span class="dataItalico" contenteditable="true">
-                        [conteúdo a ser digitado] <br />
-                    </span>
-                </p>
-                <p>
-                    <span class="data" contenteditable="false">
-                        4. Levantamento de mercado
-                    </span>
+                <p><span class="data" contenteditable="no"> 3. Descrição dos requisitos necessários e suficientes à
+                        escolha da
+                        solução </span></p>
+                <p> <span class="dataItalico" contenteditable="true"> [ Digite o conteúdo ]</span>
                 </p>
 
-                <p>
-                    <span class="dataItalico" contenteditable="true">
-                        [conteúdo a ser digitado] <br />
-                    </span>
-                </p>
-                <p>
-                    <span class="data" contenteditable="false">
-                        5. Descrição da solução como um todo
-                    </span>
-                </p>
-
-                <p>
-                    <span class="dataItalico" contenteditable="true">
-                        [conteúdo a ser digitado] <br />
-                    </span>
-                </p>
-
-                <p>
-                    <span class="data" contenteditable="false">
-                        6. Estimativa das quantidades a serem contratadas
-                    </span>
-                </p>
-
-                <p>
-                    <span class="dataItalico" contenteditable="true">
-                        [conteúdo a ser digitado] <br />
-                    </span>
+                <p><span class="data" contenteditable="no"> 4. Levantamento de mercado</span></p>
+                <p> <span class="dataItalico" contenteditable="true"> [ Digite o conteúdo ]</span>
                 </p>
 
 
-                <br><br>
+                <p><span class="data" contenteditable="no"> 5. Descrição da solução como um todo </span></p>
+                <p> <span class="dataItalico" contenteditable="true"> [ Digite o conteúdo ]</span>
+                </p>
 
-                <!-- TABELA  -->
+
+                <p><span class="data" contenteditable="no"> 6. Estimativa das quantidades a serem contratadas </span>
+                </p>
+                <p> <span class="dataItalico" contenteditable="true"> [ Digite o conteúdo ]</span>
+                </p>
+
+
+                <!-- TABELA 1 -->
                 <table class="table" contenteditable="false">
                     <tbody contenteditable="false">
 
@@ -346,6 +313,41 @@
                             <td style="text-align:center;"><strong>Descrição</strong></td>
                         </tr>
 
+                        <tr>
+
+                            <td width="3%" style="text-align:center;"> <span class="data" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="data" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
+                                    [Digite a unid.]</span> </td>
+                            <td style="text-align:justify;"> <span class="dataItalico" contenteditable="true">
+                                    [Digite a descrição]</span> </td>
+                        </tr>
+
+                        <tr>
+
+                            <td width="3%" style="text-align:center;"> <span class="data" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="data" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
+                                    [Digite a unid.]</span> </td>
+                            <td style="text-align:justify;"> <span class="dataItalico" contenteditable="true">
+                                    [Digite a descrição]</span> </td>
+                        </tr>
 
                         <tr>
 
@@ -383,6 +385,41 @@
                                     [Digite a descrição]</span> </td>
                         </tr>
 
+                        <tr>
+
+                            <td width="3%" style="text-align:center;"> <span class="data" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="data" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
+                                    [Digite a unid.]</span> </td>
+                            <td style="text-align:justify;"> <span class="dataItalico" contenteditable="true">
+                                    [Digite a descrição]</span> </td>
+                        </tr>
+
+                        <tr>
+
+                            <td width="3%" style="text-align:center;"> <span class="data" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="data" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
+                                    [Digite a unid.]</span> </td>
+                            <td style="text-align:justify;"> <span class="dataItalico" contenteditable="true">
+                                    [Digite a descrição]</span> </td>
+                        </tr>
 
                         <tr>
 
@@ -420,22 +457,53 @@
                                     [Digite a descrição]</span> </td>
                         </tr>
 
+                        <tr>
 
-                    </tbody>
-                </table>
-                <br> <br>
-                <p>
-                    <span class="data" contenteditable="false">
-                        7. Estimativa do valor da contratação
-                    </span>
+                            <td width="3%" style="text-align:center;"> <span class="data" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="data" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
+                                    [Digite a unid.]</span> </td>
+                            <td style="text-align:justify;"> <span class="dataItalico" contenteditable="true">
+                                    [Digite a descrição]</span> </td>
+                        </tr>
+
+
+                        <tr>
+
+                            <td width="3%" style="text-align:center;"> <span class="data" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="data" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
+                                    [Digite a unid.]</span> </td>
+                            <td style="text-align:justify;"> <span class="dataItalico" contenteditable="true">
+                                    [Digite a descrição]</span> </td>
+                        </tr>
+
+                </table> <!-- FIM TABLE-->
+
+
+
+                <p><span class="data" contenteditable="no"> 7. Estimativa do valor da contratação </span></p>
+                <p> <span class="dataItalico" contenteditable="true"> [ Digite o conteúdo ]</span>
                 </p>
 
-                <p>
-                    <span class="dataItalico" contenteditable="true">
-                        [conteúdo a ser digitado] <br />
-                    </span>
-                </p>
-                <!-- TABELA  -->
+
+                <!-- TABELA 2 -->
                 <table class="table" contenteditable="false">
                     <tbody contenteditable="false">
 
@@ -448,7 +516,25 @@
                             <td style="text-align:center;"><strong>Valor Total</strong></td>
 
                         </tr>
+
                         <tr>
+
+
+                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="data" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
+                                    [Digite a Unid.]</span> </td>
+                            <td style="text-align:justify;"> <span class="dataItalico" contenteditable="true">
+                                    [Digite a Descrição]</span> </td>
+                            <td style="text-align:center;"> R$<span class="dataItalico" contenteditable="true">
+                                    [digite o valor]</span> </td>
+                            <td style="text-align:center;"> R$<span class="dataItalico" contenteditable="true">
+                                    [digite o valor]</span> </td>
+
+                        <tr>
+
                             <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
                                     [xx]</span> </td>
                             <td style="text-align:center;"> <span class="data" contenteditable="true">
@@ -462,7 +548,9 @@
                             <td style="text-align:center;"> R$<span class="dataItalico" contenteditable="true">
                                     [digite o valor]</span> </td>
                         </tr>
+
                         <tr>
+
                             <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
                                     [xx]</span> </td>
                             <td style="text-align:center;"> <span class="data" contenteditable="true">
@@ -476,20 +564,7 @@
                             <td style="text-align:center;"> R$<span class="dataItalico" contenteditable="true">
                                     [digite o valor]</span> </td>
                         </tr>
-                        <tr>
-                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
-                                    [xx]</span> </td>
-                            <td style="text-align:center;"> <span class="data" contenteditable="true">
-                                    [xx]</span> </td>
-                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
-                                    [Digite a Unid.]</span> </td>
-                            <td style="text-align:justify;"> <span class="dataItalico" contenteditable="true">
-                                    [Digite a Descrição]</span> </td>
-                            <td style="text-align:center;"> R$<span class="dataItalico" contenteditable="true">
-                                    [digite o valor]</span> </td>
-                            <td style="text-align:center;"> R$<span class="dataItalico" contenteditable="true">
-                                    [digite o valor]</span> </td>
-                        </tr>
+
                         <tr>
                             <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
                                     [xx]</span> </td>
@@ -505,38 +580,210 @@
                                     [digite o valor]</span> </td>
                         </tr>
 
-                    <tfoot>
                         <tr>
-                            <th>Nome</th>
-                            <th colspan="2">Telefones</th>
+                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="data" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
+                                    [Digite a Unid.]</span> </td>
+                            <td style="text-align:justify;"> <span class="dataItalico" contenteditable="true">
+                                    [Digite a Descrição]</span> </td>
+                            <td style="text-align:center;"> R$<span class="dataItalico" contenteditable="true">
+                                    [digite o valor]</span> </td>
+                            <td style="text-align:center;"> R$<span class="dataItalico" contenteditable="true">
+                                    [digite o valor]</span> </td>
                         </tr>
-                    </tfoot>
+
+                        <tr>
+                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="data" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
+                                    [Digite a Unid.]</span> </td>
+                            <td style="text-align:justify;"> <span class="dataItalico" contenteditable="true">
+                                    [Digite a Descrição]</span> </td>
+                            <td style="text-align:center;"> R$<span class="dataItalico" contenteditable="true">
+                                    [digite o valor]</span> </td>
+                            <td style="text-align:center;"> R$<span class="dataItalico" contenteditable="true">
+                                    [digite o valor]</span> </td>
+                        </tr>
+
+                        <tr>
+                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="data" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
+                                    [Digite a Unid.]</span> </td>
+                            <td style="text-align:justify;"> <span class="dataItalico" contenteditable="true">
+                                    [Digite a Descrição]</span> </td>
+                            <td style="text-align:center;"> R$<span class="dataItalico" contenteditable="true">
+                                    [digite o valor]</span> </td>
+                            <td style="text-align:center;"> R$<span class="dataItalico" contenteditable="true">
+                                    [digite o valor]</span> </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="data" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
+                                    [Digite a Unid.]</span> </td>
+                            <td style="text-align:justify;"> <span class="dataItalico" contenteditable="true">
+                                    [Digite a Descrição]</span> </td>
+                            <td style="text-align:center;"> R$<span class="dataItalico" contenteditable="true">
+                                    [digite o valor]</span> </td>
+                            <td style="text-align:center;"> R$<span class="dataItalico" contenteditable="true">
+                                    [digite o valor]</span> </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="data" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
+                                    [Digite a Unid.]</span> </td>
+                            <td style="text-align:justify;"> <span class="dataItalico" contenteditable="true">
+                                    [Digite a Descrição]</span> </td>
+                            <td style="text-align:center;"> R$<span class="dataItalico" contenteditable="true">
+                                    [digite o valor]</span> </td>
+                            <td style="text-align:center;"> R$<span class="dataItalico" contenteditable="true">
+                                    [digite o valor]</span> </td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="data" contenteditable="true">
+                                    [xx]</span> </td>
+                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
+                                    [Digite a Unid.]</span> </td>
+                            <td style="text-align:justify;"> <span class="dataItalico" contenteditable="true">
+                                    [Digite a Descrição]</span> </td>
+                            <td style="text-align:center;"> R$<span class="dataItalico" contenteditable="true">
+                                    [digite o valor]</span> </td>
+                            <td style="text-align:center;"> R$<span class="dataItalico" contenteditable="true">
+                                    [digite o valor]</span> </td>
+                        </tr>
+
+                </table> <!-- FIM TABLE-->
+                <!-- TABELA TÍTULO -->
+                <table class="table" contenteditable="false">
+                    <tbody contenteditable="false">
+                        <tr>
+                            <td width="100%">
+                                <center>
+                                    <strong> VALOR TOTAL
+                                        <P>
+                                    </strong>
+                                    <strong> R$</strong> <span class="data" contenteditable="true">
+                                        [digite o valor]</p>
+                                </center>
+                            </td>
+
+                        </tr>
+                </table>
+
+                <p> <span class="data" contenteditable="true"> [A realização do serviço se justifica xxxxx xxxx ]</span>
+                </p>
+
+                <p><span class="data" contenteditable="no"> 8. Justificativas para o parcelamento ou não da solução
+                    </span></p>
+                <p> <span class="dataItalico" contenteditable="true"> [ Digite o conteúdo ]</span>
+                </p>
+
+                <p><span class="data" contenteditable="no"> 9. Contratações correlatas e/ou interdependentes: </span>
+                </p>
+                <p> <span class="dataItalico" contenteditable="true"> [ Digite o conteúdo ]</span>
+                </p>
+
+                <p><span class="data" contenteditable="no"> 10. Demonstração do alinhamento entre a contratação e o
+                        planejamento
+                        do órgão </span></p>
+                <p> <span class="dataItalico" contenteditable="true"> [ Digite o conteúdo ]</span>
+                </p>
+
+                <p><span class="data" contenteditable="no"> 11. Resultados pretendidos </span></p>
+                <p> <span class="dataItalico" contenteditable="true"> [ Digite o conteúdo ]</span>
+                </p>
+
+                <p><span class="data" contenteditable="no"> 12. Providências a serem adotadas pela administração
+                        previamente à
+                        celebração do contrato</span></p>
+                <p> <span class="dataItalico" contenteditable="true"> [ Digite o conteúdo ]</span>
+                </p>
+
+                <p><span class="data" contenteditable="no"> 13. Possíveis impactos ambientais e respectivas medidas de
+                        tratamento</span></p>
+                <p> <span class="dataItalico" contenteditable="true"> [ Digite o conteúdo ]</span>
+                </p>
+
+                <p><span class="data" contenteditable="no"> 14. Posicionamento conclusivo sobre a viabilidade e
+                        razoabilidade da
+                        contratação</span></p>
+                <p> <span class="dataItalico" contenteditable="true"> [ Digite o conteúdo ]</span>
+                </p>
+
+                <p><span class="data" contenteditable="no"> 15. Responsável técnico:</span></p>
+
+                <BR><BR>
+
+                <div style="
+            text-align: center;
+            border: none;
+          ">
+
+
+                    <p>
+                        <span class="data" contenteditable="true"> [Nome do(a) Secretário(a)]</span>
+                    </p>
+                    <p>
+                        <span class="dataItalico" contenteditable="true"> [Descrição do Cargo]</span>
+                    </p>
+                    <br>
+
+
+                    <p>
+                        <span class="data" contenteditable="true"> [Nome do Signatário]</span>
+                    </p>
+                    <p>
+                        <span class="dataItalico" contenteditable="true">[Cargo do Signatário]</span>
+                    </p>
+                    <br>
+                    <p>
+                        <span class="data" contenteditable="true"> [Nome do Signatário]</span>
+                    </p>
+                    <p>
+                        <span class="dataItalico" contenteditable="true">[Cargo do Signatário]</span>
+                    </p>
+
+
+                </div>
+
+
+
+
+
+                <div style="
+      text-align: center;  border: none; margin-top: 5rem;">
+
+                    (Assinado Eletronicamente)</span>
+
+                </div>
+
+
+
+
     </tbody>
-</table>
-<!-- TABELA TÍTULO -->
-<table class="table" contenteditable="false">
-    <tbody contenteditable="false">
-        <tr>
-            <td width="100%">
-                <center><strong> PREFEITURA MUNICIPAL DE SALINAS
-                        <P>
-                            PROTOCOLO DE CONTAS SISTEMA VOIP
-
-                    </strong>
-                    <span class="data" contenteditable="true">
-                        [MES/ANO]</span></p>
-                </center>
-            </td>
-
-        </tr>
-</table>
-
-
-<div style="text-align: center;  border: none; margin-top: 5rem;">
-    (Assinado Eletronicamente)</span>
-</div>
-</div>
-</td>
-</tr>
-</tbody>
 </table>
