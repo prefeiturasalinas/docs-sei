@@ -216,6 +216,7 @@
 
 
   /* Define um estilo para elementos com a classe 'data' */
+  /* min-width de 3 para 1 espaçamento*/
   .dataItalico {
     font-weight: italic;
     /* Define o peso da fonte como negrito */
@@ -230,7 +231,7 @@
     /* Remove o contorno ao redor do elemento quando ele está em foco */
     display: inline-block;
     /* Define os elementos como blocos em linha */
-    min-width: 3rem;
+    min-width: 1rem;
     /* Define a largura mínima como 3rem (48px) */
     max-width: max-content;
     /* Define a largura máxima como o conteúdo máximo */
@@ -282,6 +283,12 @@
           <span class="dataItalico" contenteditable="true"> &nbsp;&nbsp;
             [DIGITE O LOGRADOURO]
             &nbsp;&nbsp; </span>, nº.
+          <span class="dataItalico" contenteditable="true" style="text-align:right">
+            [DIGITE O NÚMERO]
+          </span>, <br><br>
+
+          &nbsp;&nbsp; </span>,
+          nº.
           <span class="dataItalico" contenteditable="true" style="text-align:right">
             [DIGITE O NÚMERO]
           </span>,
