@@ -279,20 +279,24 @@
     .table-2-0 td {
         border: 1px solid #ccc;
         padding: 8px;
-        text-align: left;
+        text-align: center;
+        /* Centraliza o texto */
+        height: 40px;
+        /* Define uma altura fixa para todas as células */
     }
 
     .table-2-0 th {
-        background-color: #ccc;
+        background-color: #c7bcbc;
+        /* Cor de fundo do cabeçalho */
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        border-left: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+        /* Bordas superior, inferior, esquerda e direita para as células <th> */
     }
 
     .table-2-0 tr:nth-child(even) {
         background-color: #f2f2f2;
-    }
-
-    .table-2-0 .header-row,
-    .table-2-0 .footer-row {
-        height: 40px;
     }
 
     .table-2-0 .total-row {
@@ -332,57 +336,9 @@
 
                 <p><span class="data" contenteditable="no"> 3. ESPECIFICAÇÃO DO OBJETO E VALORES </span></p>
 
-                <p> <span class="dataItalico" contenteditable="true"> [ Digite o conteúdo ]</span>
-                </p>
 
-                <!-- TABELA 1 -->
-                <table class="table" contenteditable="false">
-                    <tbody contenteditable="false">
-                        <tr>
-                            <td style="text-align:center;"> <strong> Nº DA NAF</strong></td>
-                            <td style="text-align:center;"> <strong>VALOR</strong></td>
-                            <td style="text-align:center;"><strong>NOTA FISCAL</strong></td>
-                            <td width="40%" style="text-align:center;"><strong>LOCAL</strong></td>
 
-                        </tr>
-                        <tr>
-                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
-                                    [xx]</span> </td>
 
-                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
-                                    [xx]</span> </td>
-                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
-                                    [xx]</span> </td>
-                            <td style="text-align:right;"> <span class="dataItalico" contenteditable="true">
-                                    [xx]</span> </td>
-
-                        </tr>
-                        <tr>
-                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
-                                    [xx]</span> </td>
-
-                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
-                                    [xx]</span> </td>
-                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
-                                    [xx]</span> </td>
-                            <td style="text-align:right;"> <span class="dataItalico" contenteditable="true">
-                                    [xx]</span> </td>
-
-                        </tr>
-                        <tr>
-                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
-                                    [xx]</span> </td>
-
-                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
-                                    [xx]</span> </td>
-                            <td style="text-align:center;"> <span class="dataItalico" contenteditable="true">
-                                    [xx]</span> </td>
-                            <td style="text-align:right;"> <span class="dataItalico" contenteditable="true">
-                                    [xx]</span> </td>
-
-                        </tr>
-                    </tbody>
-                </table>
 
 
 
@@ -612,9 +568,9 @@
                     </table>
                     <p>
                         <br><br><br>
-                    <table class="table-2-0" border="1">
+                    <table class="table-2-0">
                         <thead>
-                            <tr class="header-row">
+                            <tr>
                                 <th>ITEM</th>
                                 <th>QUANT.</th>
                                 <th>UNID.</th>
@@ -625,48 +581,61 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td>
-                                    <p>&nbsp;</p>
-                                </td>
-                                <td>
-                                    <p>&nbsp;</p>
-                                </td>
-                                <td>
-                                    <p>&nbsp;</p>
-                                </td>
-                                <td>
-                                    <p>&nbsp;</p>
-                                </td>
-                                <td>
-                                    <p>&nbsp;</p>
-                                </td>
-                                <td>
-                                    <p>&nbsp;</p>
-                                </td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
                             </tr>
                             <tr>
-                                <td>
-                                    <p>&nbsp;</p>
-                                </td>
-                                <td>
-                                    <p>&nbsp;</p>
-                                </td>
-                                <td>
-                                    <p>&nbsp;</p>
-                                </td>
-                                <td>
-                                    <p>&nbsp;</p>
-                                </td>
-                                <td>
-                                    <p>&nbsp;</p>
-                                </td>
-                                <td>
-                                    <p>&nbsp;</p>
-                                </td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
                             </tr>
-                            <tr class="footer-row total-row">
+                            <tr class="footer-row  total-row">
                                 <td colspan="5"><strong>VALOR TOTAL:</strong></td>
-                                <td></td>
+                                <td>&nbsp;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    </p>
+                    <p>
+                    <table class="table-2-0">
+                        <thead>
+                            <tr>
+                                <th>ITEM</th>
+                                <th>QUANT.</th>
+                                <th>UNID.</th>
+                                <th>DESCRIÇÃO</th>
+                                <th>VALOR UNIT.</th>
+                                <th>VALOR TOTAL</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr class="total-row">
+                                <td colspan="5"><strong>VALOR TOTAL:</strong></td>
+                                <td>&nbsp;</td>
                             </tr>
                         </tbody>
                     </table>
