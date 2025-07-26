@@ -26,6 +26,7 @@ Lembrando que os mesmos devem ser listados primeiramente em:
 `SEI - ADMINISTRAÇÃO - TIPOS DE DOCUMENTO  `
 
 Como adicionar um documento a partir do modelo?
+`SEI - ADMINISTRAÇÃO - EDITOR - MODELOS - LISTAR -  `
 `SEI - ADMINISTRAÇÃO - TIPOS DE DOCUMENTO - LISTAR - NOVO TIPO DE DOCUMENTO -  `
 
 Assinatura das Unidades:
