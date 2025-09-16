@@ -258,70 +258,14 @@
     height: 20px;
     border: 1px solid #000;
     display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    vertical-align: middle;
+    align-items: right;
+    justify-content: right;
+    text-align: right;
+    vertical-align: right;
     line-height: 20px;
     cursor: pointer;
     font-size: 16px;
   }
-
-
-  /* RADIO CARIMBO  16-09-2025*/
-
-
-
-  /* Estilos existentes mantidos e melhorados */
-  .radio-carimbo {
-    margin-right: 20px;
-    width: 20px;
-    height: 20px;
-    border: 1px solid #000;
-    display: inline-block;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 20px;
-    cursor: pointer;
-    font-size: 16px;
-  }
-
-  /* Novo container para flexbox: texto à esquerda, radio à direita */
-  .container-radio-texto {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    /* Alinha no topo para evitar desalinhamento vertical */
-    gap: 10px;
-    /* Espaçamento opcional entre texto e radio */
-  }
-
-  .texto-declaracao {
-    flex: 1;
-    /* O texto ocupa o espaço restante */
-    text-align: left;
-  }
-
-  /* Estilo para o span principal, se necessário */
-  .datatilico {
-    display: block;
-    /* Garante que o conteúdo flua corretamente */
-  }
-
-  /* Se quiser um radio button real em vez de div estilizado, substitua por: */
-  .radio-carimbo input[type="radio"] {
-    margin: 0;
-    vertical-align: middle;
-  }
-
-
-
-  /* FINAL RADIO CARIMBO  16-09-2025*/
-
-
-
 
 
 
@@ -417,35 +361,6 @@
 
           <br>
         </p>
-
-        <!-- teste -->
-
-        <!-- Seu código original mantido como base, só ajustando o container para flex no final -->
-        <table class="table-2" border="1">
-          <tbody class="header-row">
-            <tr class="header-row">
-              <th colspan="1" rowspan="2">CARIMBO DE NOTAS</th>
-            </tr>
-            <tr class="header-row"></tr>
-          </tbody>
-          <tr>
-            <td>
-              <span class="datatilico" contenteditable="true">
-                <!-- Seu texto original, mas envolvido em um flex simples para inverter: texto left, radio right -->
-                <div style="display: flex; justify-content: space-between; align-items: flex-start; width: 100%;">
-                  <div style="flex: 1; text-align: left; margin-right: 10px;">
-                    <div>DECLARAÇÃO QUE:</div>
-                    <div>A MERCADORIA FOL RECEBIDA <br> EM CONDIÇÕES SATISFATÓRIAS.</div>
-                    <div>OS SERVIÇOS FORAM EXECUTADOS EM CONDIÇÕES SATISFATÓRIAS.</div>
-                    <div contenteditable></div>
-                    <label>&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                  </div>
-                  <div class="radio-carimbo"></div> <!-- Seu radio movido para o final do flex -->
-                </div>
-              </span>
-            </td>
-          </tr>
-        </table>
 
 
 
