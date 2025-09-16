@@ -268,32 +268,52 @@
   }
 
   /* EDITABLE A DIRETA - ATUALIZAÇÃO 16/09/2025 */
-
   .container-alinhamento-2 {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: space-between;
+    /* Alinha texto à esquerda, checkbox à direita */
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+
+  .texto-declaracao {
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.4;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    max-width: 300px;
   }
 
   .radio2 {
     display: flex;
     align-items: center;
+    justify-content: center;
+    width: 20px;
+    /* ← Define largura fixa */
+    height: 20px;
+    border: 1px solid #000;
+    cursor: pointer;
     margin-left: auto;
+    /* ← Empurra para a direita */
   }
 
   .radio2 div[contenteditable] {
     width: 20px;
     height: 20px;
-    border: 1px solid #000;
     display: flex;
     align-items: center;
     justify-content: center;
-    line-height: 20px;
+    border: 1px solid #000;
     cursor: pointer;
     font-size: 16px;
+    line-height: 20px;
     padding: 0;
     box-sizing: border-box;
   }
-
 
   /* FINAL EDITABLE A DIRETA - ATUALIZAÇÃO 16/09/2025 */
 
@@ -379,12 +399,14 @@
                 <div class="radio1" style="text-align: left;">DECLARAMOS QUE: <br>
                   A MERCADORIA FOI RECEBIDA. <br>
                   OS SERVIÇOS FORAM EXECUTADOS EM CONDIÇÕES SATISFATÓRIAS.
-
-                  <div contenteditable></div> <label> </label>&nbsp;&nbsp;&nbsp;&nbsp;
+                  <div contenteditable="true"
+                    style="float: right; width: 20px; height: 20px; border: 1px solid #000; display: flex; align-items: center; justify-content: center; cursor: pointer;">
+                    X</div>
+                </div> <label> </label>&nbsp;&nbsp;&nbsp;&nbsp;
 
                 </div>
-                <!--</span>-->
 
+                </div>
               </td>
 
             </tr>
@@ -397,7 +419,33 @@
           <br>
         </p>
 
+        <table class="table-2-0" border="1">
+          <tbody>
+            <tr class="header-row">
 
+              <th colspan="1" rowspan="2">CARIMBO DE NOTAS</th>
+
+            </tr>
+            <tr></tr>
+            <tr>
+
+              <td>
+                <div class="container-alinhamento-2">
+                  <div>
+                    DECLARAMOS QUE:<br>
+                    A MERCADORIA FOI RECEBIDA.<br>
+                    OS SERVIÇOS FORAM EXECUTADOS EM CONDIÇÕES SATISFATÓRIAS.
+                  </div>
+                  <div class="radio2">
+                    <div contenteditable="true">X</div>
+                  </div>
+                </div>
+              </td>
+
+            </tr>
+
+          </tbody>
+        </table>
 
 
 
