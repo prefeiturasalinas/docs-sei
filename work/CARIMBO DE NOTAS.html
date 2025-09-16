@@ -258,16 +258,27 @@
     height: 20px;
     border: 1px solid #000;
     display: inline-flex;
-    align-items: right;
-    justify-content: right;
-    text-align: right;
-    vertical-align: right;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    vertical-align: center;
     line-height: 20px;
     cursor: pointer;
     font-size: 16px;
   }
 
-
+/* EDITABLE A DIRETA - ATUALIZAÇÃO 16/09/2025 */
+.radio1 .editable-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 180px; /* Ajuste a largura conforme necessário */
+  min-height: 100%;
+  border: 1px solid #ccc;
+  padding: 5px;
+  background: white;
+  box-sizing: border-box;
+}
 
   /* TABELA 2.0 ATUALIZAÇÃO 11-07-2024*/
   .table-2-0 {
@@ -339,6 +350,17 @@
             <tr>
 
               <td>
+                <!--<span class="dataItalico" contenteditable="true">-->
+                <div class="radio1" style="text-align: left;">DECLARAMOS QUE: <br>
+                  A MERCADORIA FOI RECEBIDA. <br>
+                  OS SERVIÇOS FORAM EXECUTADOS EM CONDIÇÕES SATISFATÓRIAS.
+
+
+                  <div contenteditable></div> <label> </label>&nbsp;&nbsp;&nbsp;&nbsp;
+
+                </div>
+                <!--</span>-->
+
                 <!--<span class="dataItalico" contenteditable="true">-->
                 <div class="radio1" style="text-align: left;">DECLARAMOS QUE: <br>
                   A MERCADORIA FOI RECEBIDA. <br>
